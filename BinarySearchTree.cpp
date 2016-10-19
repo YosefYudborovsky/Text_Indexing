@@ -1,7 +1,4 @@
-//  Created by Frank M. Carrano and Tim Henry.
-//  Copyright (c) 2013 __Pearson Education__. All rights reserved.
 
-/** @file BinarySearchTree.cpp */
 
 #ifndef TEACH_CSCI235_BST_BINARY_SEARCH_TREE_CPP
 #define TEACH_CSCI235_BST_BINARY_SEARCH_TREE_CPP
@@ -10,24 +7,11 @@
 #include "BinarySearchTree.h" 
 #include "BinaryNode.h" 
 
-// template<class ItemType>
-// BinarySearchTree<ItemType>::BinarySearchTree(const BinarySearchTree<ItemType>& treePtr)
-// {
-//    root_ = this->copyTree(treePtr.root_); // Call inherited method
-// }  // end copy constructor
-
 template<class ItemType, class OtherType>
 BinarySearchTree<ItemType, OtherType>::BinarySearchTree(const BinarySearchTree<ItemType, OtherType>& tree)
 {
   root_ = CopyTree(tree.root_);
 }  // end copy constructor
-
-template<class ItemType, class OtherType>
-BinarySearchTree<ItemType, OtherType>& BinarySearchTree<ItemType, OtherType>::operator=(const BinarySearchTree<ItemType, OtherType>& right_hand_side)
-{
-  // COMPLETE ASSIGNMENT OPERATOR
-}  // end operator=
-
 
 template<class ItemType, class OtherType>
 BinarySearchTree<ItemType, OtherType>::~BinarySearchTree()
