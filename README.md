@@ -1,5 +1,5 @@
 # Text_Indexing: (algorithms & data structures II)
-For a given document an online index is created using a binary search tree (where each node contains the word searched for) and a linked list that contains the line number of the transcript where the word occurs.
+For a given document an online index is created using a binary search tree where each node contains a word and a linked list that contains the line number of the transcript where the word occurs.
 
 The Program:
 
