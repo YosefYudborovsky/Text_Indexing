@@ -1,8 +1,7 @@
 //  Created by Frank M. Carrano and Tim Henry.
-//  Copyright (c) 2013 __Pearson Education__. All rights reserved.
-// Modified by Ioannis Stamos
+//  Copyright (c) 2013 __Pearson Education__.
+// Modified by Ioannis Stamos and Yosef Yudborovsky
 
-/** @file BinaryNode.cpp */
 #ifndef TEACH_CSCI235_BST_BINARY_NODE_CPP
 #define TEACH_CSCI235_BST_BINARY_NODE_CPP
 
