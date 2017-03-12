@@ -1,11 +1,7 @@
 //  Created by Frank M. Carrano and Tim Henry.
 //  Copyright (c) 2013 __Pearson Education__. All rights reserved.
-// Modified by Ioannis Stamos
+// Modified by Ioannis Stamos and Yosef Yudborovsky
 
-/** A class of nodes for a link-based binary tree.
- Listing 16-2.
- @file BinaryNode.h */
- 
 #ifndef TEACH_CSCI235_BST_BINARY_NODE_H_
 #define TEACH_CSCI235_BST_BINARY_NODE_H_
 #include <iostream>
